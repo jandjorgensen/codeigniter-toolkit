@@ -16,7 +16,7 @@ This makes it easy to handle assets like javascript and css.
             "js" => "js/",
             "css" => "css/"
         );
-
+ 
 ###Usage
 
 ####Getting the URL for an asset directory
