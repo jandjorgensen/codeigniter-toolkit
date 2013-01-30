@@ -11,11 +11,12 @@ This makes it easy to handle assets like javascript and css.
 
 1. Create a directory for your assets (mine is in the application folder), with a css and javascript subdirectory (and optionally more)
 2. Map the location of the asset root and subdirectories.  The following are the only required elements.  Feel free to add more so the `asset_url()` function is more userful.
-    $config["asset_path"] = array(
-            "root" => "application/assets/",
-            "js" => "js/",
-            "css" => "css/"
-        );
+```$config["asset_path"] = array(
+"root" => "application/assets/",
+"js" => "js/",
+"css" => "css/"
+);
+```
  
 ###Usage
 
